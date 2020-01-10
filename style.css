@@ -9,11 +9,17 @@ html {
   box-sizing: inherit;
 }
 
-
+.color-selector-box-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .selection-btn {
   height: 100px;
   width: 150px;
   border: 1px solid #111;
+  margin: 5px;
+  
 }
 
 .red {

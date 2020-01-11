@@ -41,7 +41,7 @@ html {
   justify-content: center;
 }
 
-.landing-box {
+#landing-box {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;

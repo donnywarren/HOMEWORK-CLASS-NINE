@@ -1,16 +1,19 @@
-var result-box-red = document.createElement("div");
-result-box-red.id = "result-box-red";
-result-box-red.className = "result-box red";
 
 
+    function createRedBox() {
+      var newRedBox = document.createElement("div");
+      newRedBox.className="result-box red";
+      document.getElementById("landing-box").appendChild(newRedBox);
+    }
 
-var result-box-green = document.createElement("div");
-result-box-green.id = "result-box-green";
-result-box-green.className = "result-box green";
+    function createGreenBox() {
+      var newGreenBox = document.createElement("div");
+      newGreenBox.className="result-box green";
+      document.getElementById("landing-box").appendChild(newGreenBox);
+    }
 
-
-
-
-var result-box-blue = document.createElement("div");
-result-box-blue.id = "result-box-blue";
-result-box-blue.className = "result-box blue";
+    function createBlueBox() {
+      var newBlueBox = document.createElement("div");
+      newBlueBox.className="result-box blue";
+      document.getElementById("landing-box").appendChild(newBlueBox);
+    }

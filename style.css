@@ -51,10 +51,7 @@ html {
   overflow: hidden;
 }
 
-
-.test {
+.result-box {
   height: 100px;
   width: 150px;
-  border: 2px solid #111;
-
 }

@@ -1,5 +1,4 @@
 
-
     function createRedBox() {
       var newRedBox = document.createElement("div");
       newRedBox.className="result-box red";
